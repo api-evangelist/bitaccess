@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of Bitaccess hosts
+notes: >-
+  Probed the /.well-known/ discovery surface plus /llms.txt across the primary
+  Bitaccess hosts. No documents were served — every path returned 404. Absence
+  is a valid, recorded result.
+hosts:
+  - host: https://bitaccess.ca
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /llms.txt, status: 404}
+  - host: https://bitaccess.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /llms.txt, status: 404}
+  - host: https://cash.bitaccess.co
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /llms.txt, status: 404}

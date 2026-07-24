@@ -1,0 +1,52 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/bitaccess (npm @bitaccess scope) + https://github.com/bitaccess
+notes: >-
+  Bitaccess publishes its first-party client libraries under the npm @bitaccess
+  scope. coinlib is the marquee library — a unified Node.js/TypeScript API for
+  sending and receiving crypto payments (BTC/ETH/TRON/XRP/LTC/etc.) used across
+  Bitaccess BTM and Cash API infrastructure. altavista-client-node is the
+  first-party client for the Altavista KYC API. No PyPI/Maven/NuGet/RubyGems/
+  crates.io/Packagist first-party packages were found — the stack is TypeScript/Node.
+packages:
+  - language: typescript
+    registry: npm
+    name: "@bitaccess/coinlib-types"
+    url: https://www.npmjs.com/package/@bitaccess/coinlib-types
+    install: npm install @bitaccess/coinlib-types
+    version: 10.0.4
+    repository: https://github.com/bitaccess/coinlib
+    description: Shared types for the coinlib unified crypto-payments library
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@bitaccess/altavista-client-node"
+    url: https://www.npmjs.com/package/@bitaccess/altavista-client-node
+    install: npm install @bitaccess/altavista-client-node
+    version: 3.22.0
+    description: Client library for accessing the Altavista KYC API
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@bitaccess/ts-common"
+    url: https://www.npmjs.com/package/@bitaccess/ts-common
+    install: npm install @bitaccess/ts-common
+    version: 1.0.3
+    repository: https://github.com/bitaccess/ts-common
+    description: Common TypeScript types and utilities used by Bitaccess libraries
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@bitaccess/ts-config"
+    url: https://www.npmjs.com/package/@bitaccess/ts-config
+    install: npm install @bitaccess/ts-config
+    version: 1.3.5
+    repository: https://github.com/bitaccess/ts-config
+    description: Shared TypeScript config files for Bitaccess projects
+    official: true
+source_repositories:
+  - name: coinlib
+    url: https://github.com/bitaccess/coinlib
+    description: Unified Node.js API for sending and receiving crypto payments
+    language: TypeScript
+    official: true
